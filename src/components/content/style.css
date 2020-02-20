@@ -1,0 +1,50 @@
+.card{
+    margin-top: 5%;
+    border: none;
+}
+
+.cardTitle{
+    width: 71px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #939393;
+}
+
+
+.cardBody{
+
+}
+
+.cardSubTitle{
+    width: 309px;
+    height: 32px;
+    font-family: Teko;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #272727;
+}
+.cardButton{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: #1a18f7;
+    cursor: pointer;
+}
+
+.cardImg{
+    
+}

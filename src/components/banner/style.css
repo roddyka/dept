@@ -1,0 +1,44 @@
+.image{
+    background-image: url("https://voicedesign.net/wp-content/uploads/2019/08/voice-design-mead-winelabel-maxwell-2-1400x940.jpg");
+    width: 100%;
+    height: 940px;
+    background-repeat: no-repeat;
+}
+
+.titleBanner{
+    width: 798px;
+    height: 400px;
+    font-family: Teko;
+    font-size: 200px;
+    padding-top: 20%;
+    padding-left: 10%;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--black);
+}
+
+.Rectangle-4 {
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    margin-right: 50px;
+    margin-top: 30%;
+}
+
+.viewCase{
+    width: 170px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
