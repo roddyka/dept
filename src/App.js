@@ -15,14 +15,16 @@ function App() {
 
   return (
     <div id="app">
-      <HeaderMenu/>
+    
+      <Container> 
+     <HeaderMenu/>
       <Banner/>
-      <Container>
         <Row>
           <Content/>
         </Row>
+        <Footer/>
       </Container>
-      <Footer/>
+      
     </div>
   );
 }

@@ -4,7 +4,6 @@
 }
 
 .cardTitle{
-    width: 71px;
     height: 30px;
     font-family: Arial;
     font-size: 15px;
@@ -22,8 +21,6 @@
 }
 
 .cardSubTitle{
-    width: 309px;
-    height: 32px;
     font-family: Teko;
     font-size: 30px;
     font-weight: normal;

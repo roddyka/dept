@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
- 
+
 import './style.css';
+import api from '../../services/api';
 
 const Header = () =>{
 
@@ -9,22 +10,22 @@ const Header = () =>{
   const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-      
-        <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
-          <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-          <Collapse isOpen={!collapsed} navbar>
-            <Nav navbar>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      
+        <div className="menu">  
+          <Navbar color="faded" light >
+            <NavbarBrand href="/" className="mr-auto">DEPT</NavbarBrand>
+            <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+            <Collapse isOpen={!collapsed} navbar className="nav">
+              <Nav navbar>
+              {api.content.menu.map((value, index) => {
+                return <NavItem key={index}>
+                  <NavLink href="/components/"><p>{value.name}</p></NavLink>
+                </NavItem>
+              })}
+                
+              </Nav>
+            </Collapse>
+          </Navbar>
+      </div>
     )
 }
 
