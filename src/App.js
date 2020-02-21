@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div id="app">
-    
-      <Container> 
      <HeaderMenu/>
+      <Container> 
+    
       <Banner/>
         <Row>
           <Content/>
@@ -28,8 +28,8 @@ function App() {
           <Contact/>
           {/* <Forms/> */}
         </Row>
-        <Footer/>
-      </Container>
+      
+      </Container>  <Footer/>
       
     </div>
   );
