@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Hi, I took the test to show the features and how I used it.
+I know how to set up websites and apps by vue, angular and react, ionic.
+
+As I didn't have much time to do it, as I am working full time and there were only a few hours to start.
+Here's the test, it's not exactly what they sent me and I apologize for it.
+I tried to add features and create a basic template for that.
+
+Thank you for the opportunity to showcase my work and I hope we work together soon.
+
+## README HERE!
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -69,15 +80,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### excuses
 
-Hello, here is the project code.
-first, i apologize for not following 100% of what was planned in the sketch.
-
-I tried to get close to some features that asked in the challenge to know that I understand the language and we can work together.
-
-1 day for the test is very heavy because I work in another place that I need to be 8 hours of my day.
-
-And I don’t have much time to finish the test because if we go to work together I need to leave this place until the end of the month so that no one gets hurt leaving half jobs.
-
-here on my github you can see more of some tests done and my linkedin: 
+here on my github you can see more of some tests done and my linkedin: https://www.linkedin.com/in/rodrigo-carvalho-antunes/
 
 thanks
