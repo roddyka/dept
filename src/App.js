@@ -7,10 +7,11 @@ import api from './services/api';
 import HeaderMenu from './components/header/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './components/banner';
-import { Container, Row } from 'reactstrap';
+import { Container, Row, Form } from 'reactstrap';
 import Content from './components/content'; 
 import Footer from './components/footer';
 import Contact from './components/contact';
+import Forms from './components/forms';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         </Row>
         <Row className="contact">
           <Contact/>
+          {/* <Forms/> */}
         </Row>
         <Footer/>
       </Container>
