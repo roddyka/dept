@@ -21,3 +21,9 @@ body{
 body, input, button{
     font-family: Roboto, sans-serif;
 }
+
+.contact{
+    background-color: #b8b8b841;
+    margin-top: 30px;
+    border-radius: 5px;
+}

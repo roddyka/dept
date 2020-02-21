@@ -10,6 +10,7 @@ import Banner from './components/banner';
 import { Container, Row } from 'reactstrap';
 import Content from './components/content'; 
 import Footer from './components/footer';
+import Contact from './components/contact';
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
       <Banner/>
         <Row>
           <Content/>
+        </Row>
+        <Row className="contact">
+          <Contact/>
         </Row>
         <Footer/>
       </Container>
