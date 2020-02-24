@@ -9,6 +9,14 @@ I tried to add features and create a basic template for that.
 
 Thank you for the opportunity to showcase my work and I hope we work together soon.
 
+- list fake API with JSON
+- animate buttons (view case and new)
+- form
+- footer with list menu itens from api
+- menu itens from api
+- separated components
+
+
 ## README HERE!
 
 ## Available Scripts
