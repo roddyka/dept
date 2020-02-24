@@ -22,7 +22,17 @@
     width: 170px;
     height: 50px;
     background-color: black;
+    transition: all 0.5s ease;
 }
+
+.Rectangle-4:hover {
+    background: red; 
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+     transition: background-color 2s ease-out;
+     transform: scale(1.4);
+  }
 
 .viewCase{
     width: 170px;

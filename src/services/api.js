@@ -52,7 +52,9 @@ const api = {
         title: "Koninklijke Bibliotheek",
         img: koninklijke,
         subtitle: "The search for the most influential book ever",
-        button: "BUY NOW!"
+        button: "BUY NOW!",
+        new: "NEW",
+        class: "animateNEW"
       },
       {
         title: "zalando",
